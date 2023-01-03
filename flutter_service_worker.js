@@ -3,38 +3,40 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+  "canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
-"manifest.json": "d6ca57350173b3ccd7074f958253fbee",
-"index.html": "db0e9ee1ff318943bb3f936da92a01a8",
-"/": "db0e9ee1ff318943bb3f936da92a01a8",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
+"manifest.json": "138486a018cbbd795ced4356fc616a88",
+"index.html": "375bc8c39da673e4fd5b88624d56df28",
+"/": "375bc8c39da673e4fd5b88624d56df28",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d1722d5cf2c7855862f68edb85e31f88",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dd3c4233029270506ecc994d67785a37",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "613e4cc1af0eb5148b8ce409ad35446d",
-"assets/NOTICES": "bb8bf17fa695d7800f04ba123d98b100",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "99f29024aee8f4672a47cc3a81b9b84a",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d8e9b6203ce2657c991f0b339ccb3a6d",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "48ce1bb8a42776caa951cb782d277730",
+"assets/NOTICES": "5f566cfc5978c12c4434db9b3cf6cb48",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
-"assets/AssetManifest.json": "4e9aad8ea6e11c197ebdc9b03ccc2e4a",
-"assets/assets/artworks/katarina.jpg": "3ff1ee51fbf844798c93b9a6e5f1ca70",
-"assets/assets/artworks/drake_jimmy.jpg": "d822cc4258e3278ccf60a1c9367f358f",
-"assets/assets/artworks/backside_black_red.png": "7bc3d4f848dd9bb9bab5c8803af196c1",
-"assets/assets/artworks/poster_small.jpg": "64aecc63c4dbf8c4fd179034c46a4dc9",
-"assets/assets/artworks/purrfect_own.jpg": "ccc8b95f5aea8cc37a483b019888a5c4",
-"assets/assets/artworks/gril.jpg": "2191ebf9e3f041b2e8c58476eab6d871",
-"assets/assets/games/zombie_survival.jpg": "206d13b8f2b245ce5b50428b16e42d98",
-"assets/assets/games/jump_n_run.jpg": "1cbab679930ff45b6b11c5ce5bf645dd",
-"assets/assets/games/durak.jpg": "4cbbf42b2c7697b891df8e04ad54dab9",
+"assets/AssetManifest.json": "dac55456ea1bcdaaa8296159e988b9b6",
+"assets/assets/logo/logo.png": "677c3b0c417284dbfb91a4efb955793b",
+"assets/assets/artworks/katarina_cute.jpg": "09746cdb2aa9e411cbca8e502ad492ce",
+"assets/assets/artworks/katarina_blond.jpg": "9d757b44ecb3b6563bda0564d7d1eea2",
+"assets/assets/artworks/purrfect_evil.jpg": "5e47773712796481f2d87b4bfddd3272",
+"assets/assets/artworks/purrfect_lady.jpg": "7c94217cd237be378ab8a79582522eb1",
+"assets/assets/artworks/katarina_evil.jpg": "0d53da69477a770de1a70be0248bfa38",
+"assets/assets/artworks/purrfect_cute.jpg": "62201c4fdf1443ec751c6a5c4acd022b",
+"assets/assets/games/boxhead.jpg": "8d0b3f00eeac035ae922b3af11a31133",
+"assets/assets/games/jump_n_run.jpg": "fb1ef2b458cf985ab3646e961156b577",
+"assets/assets/games/durak.jpg": "252276bb164bc0a969c4596f47333853",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"version.json": "c8f979d408e51acd1ee06f6af9b9722c",
+"assets/shaders/ink_sparkle.frag": "10df1acd32ca2ee121245181ffeee092",
+"version.json": "60a70441ee08a36481469e1c0f34efb9",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"main.dart.js": "95f747065e31027f7a86f5e454ddbe15"
+"main.dart.js": "c636b576e993bbb32dd8016b0c5c9966"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -42,7 +44,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -141,9 +142,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })

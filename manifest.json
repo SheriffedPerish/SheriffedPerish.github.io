@@ -1,11 +1,11 @@
 {
-    "name": "my_website",
-    "short_name": "my_website",
+    "name": "sheriffedperish",
+    "short_name": "sheriffedperish",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A Sheriffed Perish's endeavors in software development and artistic creations.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
